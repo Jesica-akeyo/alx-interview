@@ -37,6 +37,7 @@ def canUnlockAll(boxes):
                 for i in boxes[k]:
                     try:
                         Unlocked[i] = True
-                    except:
+                    except Exception:
                         pass
     return False not in Unlocked
+
