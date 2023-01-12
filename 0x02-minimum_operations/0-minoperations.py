@@ -21,6 +21,7 @@ def factorization(n):
         i += 1
     return s
 
+
 def minOperations(n):
     """
     returns the fewest number of neede operations or 0
